@@ -1,8 +1,7 @@
 #include <WiFiS3.h>
-#include <ArduinoMqttClient.h>
+#include "ArduinoMqttClient.h"
+#include "arduino_secrets.h"
 
-#define SECRET_SSID "Tenda_3CA410"
-#define SECRET_PASS "waterduck934"
 #define MQTT_SERVER "test.mosquitto.org"
 #define MQTT_PORT 1833
 
